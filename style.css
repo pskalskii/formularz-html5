@@ -1,0 +1,44 @@
+body {
+  background-color: whitesmoke;
+  display: block;
+}
+
+form {
+  background-color: #9eb9bf83;
+  width: 300px;
+  height: 510px;
+  border: black 5px;
+  border-style: groove;
+}
+
+label {
+  display: block;
+  color: black;
+  margin-left: 8px;
+}
+
+form > label {
+  margin-top: 2px;
+}
+
+input {
+  background-color: #ffc40090;
+  margin-left: 8px;
+}
+
+select {
+  display: block;
+  background-color: #ffc40090;
+  margin-left: 8px;
+  margin-top: 4px;
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+
+#usermessage {
+  width: 265px;
+  height: 200px;
+  background-color: #ffc40090;
+  margin-left: 6px;
+  margin-right: 6px;
+}
